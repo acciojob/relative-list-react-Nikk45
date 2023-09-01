@@ -21,7 +21,7 @@ const relatives = [
 const App = () => {
   return (
     <div id="main">
-               <ol>
+               <ol id='relativeList'>
                {
                 relatives.map((relative,index)=>
                   <li key={`relativeListItem${index+1}`}>{relative}</li>
